@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e +u
+[ -f "${1}" ] || exit 1
+declare -a exprs=()
+for v in $(grep -oE '\{\{[A-Za-z0-9_]+\}\}' "${1}" | sed -e 's/^{{//' -e 's/}}$//'); do
+  exprs=("${exprs[@]}" -e "s/{{${v}}}/$(eval echo \$\{${v}\} | sed -e 's_/_\\/_g' -e 's/&/\\&/g')/g")
+done
+sed "${exprs[@]}" "${1}"
