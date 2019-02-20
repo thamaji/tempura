@@ -8,7 +8,7 @@ tempura
 ### Install
 
 ```
-$ sudo curl -o /usr/local/bin/tempra -fSsl https://raw.githubusercontent.com/thamaji/tempura/master/tempura
+$ sudo curl -o /usr/local/bin/tempra -fSsL https://raw.githubusercontent.com/thamaji/tempura/master/tempura
 $ sudo chmod +x /usr/local/bin/tempra
 ```
 
