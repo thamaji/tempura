@@ -5,6 +5,13 @@ tempura
 
 指定したファイルの`{{環境変数}}`を展開して表示するだけ
 
+### Install
+
+```
+$ sudo curl -o /usr/local/bin/tempra -fSsl https://raw.githubusercontent.com/thamaji/tempura/master/tempura
+$ sudo chmod +x /usr/local/bin/tempra
+```
+
 ### Example
 
 ```
