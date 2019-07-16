@@ -8,8 +8,8 @@ tempura
 ### Install
 
 ```
-$ sudo curl -o /usr/local/bin/tempra -fSsL https://raw.githubusercontent.com/thamaji/tempura/master/tempura
-$ sudo chmod +x /usr/local/bin/tempra
+$ sudo curl -o /usr/local/bin/tempura -fSsL https://raw.githubusercontent.com/thamaji/tempura/master/tempura
+$ sudo chmod +x /usr/local/bin/tempura
 ```
 
 ### Example
